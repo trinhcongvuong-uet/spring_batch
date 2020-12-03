@@ -21,6 +21,6 @@ public class KaiIdoCreReader extends MyListItemReader<KaiIdoDto> {
 		Integer keyIdo = (Integer) jobExecutionContext.get("IDO_KEY");
 		// defined listKaiIdoDto
 		List<KaiIdoDto> listKaiIdoDto = (List<KaiIdoDto>) buySelInputDataGet.getBaibaiIdo(innoInf, keyIdo);
-		return (List<KaiIdoDto>) listKaiIdoDto;
+		return listKaiIdoDto;
 	}
 }
