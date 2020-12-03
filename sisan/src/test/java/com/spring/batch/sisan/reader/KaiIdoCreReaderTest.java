@@ -1,10 +1,10 @@
-package com.spring.batch.sisan;
+package com.spring.batch.sisan.reader;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SisanApplicationTests {
+class KaiIdoCreReaderTest {
 
 	@Test
 	void contextLoads() {
